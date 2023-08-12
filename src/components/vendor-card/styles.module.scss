@@ -1,0 +1,119 @@
+.vendorCard {
+  background-color: #ffffff;
+  margin: 50px auto;
+  width: 568px;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 12px 0px;
+  height: 278px;
+  position: relative;
+}
+.vendorCardImageContainer {
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  max-height: 134px;
+  width: 100%;
+}
+.vendorCardImage {
+  width: 100%;
+}
+
+.logo {
+  border-radius: 8px;
+  background-color: white;
+  overflow: hidden;
+  position: absolute;
+  right: 10px;
+  bottom: 40%;
+  padding: 10;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  > img {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 56px;
+    height: 56px;
+  }
+}
+
+.title {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.description {
+  display: flex;
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 5px;
+}
+
+.vendorCardDescriptionContainer {
+  margin: 40px 10px;
+}
+
+.closedTag {
+  color: #1e9a50;
+  background-color: #f6fcf9;
+  overflow: hidden;
+  padding: 4px;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  border-radius: 0 0 16px 16px;
+}
+
+.rate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .positiveRateTag {
+    background-color: rgba(63, 126, 0, 0.08);
+    color: rgb(48, 93, 2);
+  }
+
+  .negativeRateTag {
+    background-color: rgba(154, 205, 50, 0.08);
+    color: rgb(154, 205, 50);
+  }
+
+  > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+}
+
+.commentCount {
+  padding-left: 4px;
+  color: rgb(163, 163, 163);
+}
+
+.star {
+  margin-right: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deliveryGuarantee {
+  color: rgb(163, 163, 163);
+  margin-left: 2px;
+}
+
+.deliveryGuaranteeContainer {
+  margin-top: 5px;
+}
