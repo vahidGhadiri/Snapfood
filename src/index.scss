@@ -1,0 +1,13 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Vazir, sans-serif;
+  background-color: #f8f9fb;
+  font-size: 62.5%;
+}
