@@ -11,7 +11,7 @@ it described as a list of ....
     Typescript
     Sass
     Redux-toolkit
-    Axios
+    RTK
 
 ## Run Locally
 
